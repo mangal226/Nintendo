@@ -19,8 +19,16 @@ public class Test {
 		Console c3=new Salon ("PS2");
 		Console c4=new Portable ("NDS");
 		Console c5=new Salon ("N64");
-		Adresse adr1=new Adresse(5,"rue de Gordon","Lille");
-		Boutique b1=new Boutique("",adr1);
+		Adresse adr1=new Adresse(5,"rue de Gaulle","Lille");
+		Adresse adr2=new Adresse(5,"rue de Gordon","Paris");
+		Adresse adr3=new Adresse(5,"rue de S�vre","Marseille");
+		Adresse adr4=new Adresse(5,"rue de Guillotine","Toulouse");
+		Adresse adr5=new Adresse(5,"rue de Gordon","Nantes");
+		Boutique b1=new Boutique("MarioStore",adr1);
+		Boutique b2=new Boutique("FifaStore",adr2);
+		Boutique b3=new Boutique("3D_Store",adr3);
+		Boutique b4=new Boutique("PES_World",adr4);
+		Boutique b5=new Boutique("EasyWorld",adr5);
 		
 		
 		Jeu jeu1=new Jeu("MarioKart", c1,b1);
