@@ -3,7 +3,8 @@ import metier.Console;
 import metier.Jeu;
 import metier.Portable;
 import metier.Salon;
-
+import metier.Adresse;
+import metier.Boutique;
 import metier.Client;
 
 public class Test {
@@ -14,8 +15,8 @@ public class Test {
 		Console c3=new Salon ("PS2");
 		Console c4=new Portable ("NDS");
 		Console c5=new Salon ("N64");
-		Adresse adr1=new Adresse(12,)
-		Boutique b1=new Boutique("",12, )
+		Adresse adr1=new Adresse(5,"rue de Gordon","Lille");
+		Boutique b1=new Boutique("",adr1);
 		
 		Jeu jeu1=new Jeu("MarioKart", c1);
 		Jeu jeu2=new Jeu("Naruto", c2);
