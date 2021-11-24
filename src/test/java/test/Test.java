@@ -4,10 +4,11 @@ import metier.Jeu;
 import metier.Portable;
 import metier.Salon;
 
+import metier.Client;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Console c1=new Salon ("PS4");
 		Console c2=new Salon ("PS3");
 		Console c3=new Salon ("PS2");
@@ -21,8 +22,8 @@ public class Test {
 		Jeu jeu3=new Jeu("PES4", c3);
 		Jeu jeu4=new Jeu("Fifa", c4);
 		Jeu jeu5=new Jeu("Assassin Creeds", c5);
-		
-		
+		Client c1 = new Client("Dupont","Martin");
+		Client c2 = new Client("Dupond","Alice");
 
 	}
 
