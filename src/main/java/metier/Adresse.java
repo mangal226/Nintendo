@@ -42,7 +42,4 @@ public class Adresse {
 		return "Adresse [numero=" + numero + ", rue=" + rue + ", ville=" + ville + "]";
 	}
 	
-	
-	
-
 }

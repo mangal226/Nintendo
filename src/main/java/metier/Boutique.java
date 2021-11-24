@@ -16,11 +16,6 @@ public class Boutique {
 		this.adresse = adresse;
 	}
 
-	}
-	
-	
-	
-
-	
-
 }
+
+
